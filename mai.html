@@ -7,8 +7,9 @@
 <title>Alex Karita – Software Developer</title>
 </head>
 <body>
+
 <nav>
-  <a href="#hero" class="logo">AK</a>
+  <a href="#hero" class="logo">AK<span>.</span></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -18,31 +19,56 @@
   </ul>
 </nav>
 
+<!-- ══ HERO ══ -->
 <section id="hero">
-  <p class="hello">HELLO, I'M</p>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <p class="hello">Hello, I'm</p>
   <h1 class="hero-name">Alex Karita</h1>
   <p class="hero-role">Software Developer</p>
   <p class="hero-desc">Based in Kenya. I build clean and functional websites while continuously learning and improving my skills.</p>
+
+  <div class="hero-tags">
+    <span class="hero-tag">JavaScript</span>
+    <span class="hero-tag">TypeScript</span>
+    <span class="hero-tag">React</span>
+    <span class="hero-tag">Next.js</span>
+    <span class="hero-tag">Python</span>
+    <span class="hero-tag">Full-Stack</span>
+  </div>
+
   <div class="hero-btns">
     <a href="#projects" class="btn-primary">View Projects</a>
     <a href="#contact" class="btn-outline">Get in Touch</a>
   </div>
+
   <div class="scroll-arrow">↓</div>
 </section>
 
+<!-- ══ ABOUT ══ -->
 <section id="about">
-  <h2 class="section-title reveal-left">About Me</h2>
-  <div class="about-text">
-    <p class="reveal delay-1">I'm a passionate software developer from Kenya with a love for building things that live on the internet. I enjoy turning ideas into real, functional applications that solve problems.</p>
-    <p class="reveal delay-2">My journey in tech started with curiosity — tinkering with code, breaking things, and learning how to fix them. Today, I'm focused on web development, exploring modern frameworks, and continuously sharpening my skills.</p>
+  <div class="inner">
+    <div class="section-header">
+      <h2 class="section-title reveal-left">About <em>Me</em></h2>
+    </div>
+    <div class="about-text">
+      <p class="reveal delay-1">I'm a passionate software developer from Kenya with a love for building things that live on the internet. I enjoy turning ideas into real, functional applications that <strong>solve real problems</strong>.</p>
+      <p class="reveal delay-2">My journey in tech started with curiosity — tinkering with code, breaking things, and learning how to fix them. Today, I'm focused on web development, exploring modern frameworks, and building AI-powered tools that make life easier.</p>
+    </div>
   </div>
 </section>
 
+<!-- ══ SKILLS ══ -->
 <section id="skills">
-  <h2 class="section-title reveal-left">Skills</h2>
+  <div class="section-header">
+    <h2 class="section-title reveal-left">My <em>Skills</em></h2>
+    <p class="section-desc reveal delay-1">Technologies and tools I work with to bring ideas to life.</p>
+  </div>
   <div class="skills-grid">
     <div class="skill-card reveal-zoom delay-1">
-      <h3>PROGRAMMING LANGUAGES</h3>
+      <h3>Programming Languages</h3>
       <div class="tags">
         <span class="tag">JavaScript</span>
         <span class="tag">TypeScript</span>
@@ -52,7 +78,7 @@
       </div>
     </div>
     <div class="skill-card reveal-zoom delay-2">
-      <h3>FRAMEWORKS &amp; LIBRARIES</h3>
+      <h3>Frameworks &amp; Libraries</h3>
       <div class="tags">
         <span class="tag">React</span>
         <span class="tag">Next.js</span>
@@ -62,7 +88,7 @@
       </div>
     </div>
     <div class="skill-card reveal-zoom delay-3">
-      <h3>TOOLS &amp; TECHNOLOGIES</h3>
+      <h3>Tools &amp; Technologies</h3>
       <div class="tags">
         <span class="tag">Git</span>
         <span class="tag">VS Code</span>
@@ -82,250 +108,254 @@
   </div>
 </section>
 
+<!-- ══ PROJECTS ══ -->
 <section id="projects">
-  <h2 class="section-title reveal-left">Projects</h2>
-  <div class="projects-list">
+  <div class="inner">
+    <div class="section-header">
+      <h2 class="section-title reveal-left">Featured <em>Projects</em></h2>
+      <p class="section-desc reveal delay-1">Things I've built. Real applications solving real problems.</p>
+    </div>
+    <div class="projects-list">
 
-    <a href="https://nyumber-hunter-wc54.vercel.app/" target="_blank" class="project-card reveal delay-1">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>NyumbaHunter 🏠</h3>
-        <p>An AI-powered house hunting app for Ruaka, Ruiru and Thika Road in Nairobi. Features AI recommendations, WhatsApp agent alerts, interactive map with directions, and real-time listings. Built with Next.js, Supabase, and Groq AI.</p>
-        <div class="tags">
-          <span class="tag">Next.js</span>
-          <span class="tag">Supabase</span>
-          <span class="tag">Groq AI</span>
-          <span class="tag">WhatsApp API</span>
-          <span class="tag">Leaflet.js</span>
+      <a href="https://nyumber-hunter-wc54.vercel.app/" target="_blank" class="project-card reveal delay-1">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>NyumbaHunter 🏠</h3>
+          <p>An AI-powered house hunting app for Ruaka, Ruiru and Thika Road in Nairobi. Features AI recommendations, WhatsApp agent alerts, interactive map with directions, and real-time listings. Built with Next.js, Supabase, and Groq AI.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Groq AI</span>
+            <span class="tag">WhatsApp API</span>
+            <span class="tag">Leaflet.js</span>
+          </div>
         </div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/>
-          <line x1="10" y1="14" x2="21" y2="3"/>
-        </svg>
-      </div>
-    </a>
-    <a href="https://vouge-s-wear.onrender.com" target="_blank" class="project-card reveal delay-6">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>Vogue Wear Logic 👗</h3>
-        <p>A responsive web-based inventory management system tailored for the high-fashion industry. This project implements a <strong>Python-powered backend</strong> to handle dynamic content delivery and real-time stock tracking.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Data Structures</span>
-          <span class="tag">Logic Design</span>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
         </div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-          <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-          <line x1="12" y1="22.08" x2="12" y2="12"></line>
-        </svg>
-      </div>
-    </a>
+      </a>
 
-    <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-2">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>Banking Management System</h3>
-        <p>A Python-based banking system that simulates real-world banking operations including deposits, withdrawals, and balance checking with proper input validation and error handling.</p>
-        <div class="tags"><span class="tag">Python</span></div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-      </div>
-    </a>
-
-    <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-3">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>Shopping Cart System</h3>
-        <p>A command-line shopping cart application that allows users to add items, calculate totals, and manage cart operations efficiently.</p>
-        <div class="tags"><span class="tag">Python</span></div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-      </div>
-    </a>
-
-    <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-4">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>Weight Converter</h3>
-        <p>A responsive weight conversion application that converts between multiple units (kg, lb, oz) with instant results and a clean user interface.</p>
-        <div class="tags"><span class="tag">Python</span></div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-      </div>
-    </a>
-
-    <a href="https://alexkarita.github.io/word-guessing-game/" target="_blank" class="project-card reveal delay-5">
-      <div class="project-info">
-        <span class="badge badge-project">PROJECT</span>
-        <h3>Word Guessing Game</h3>
-        <p>A lightweight browser-based tool that counts words, characters, and sentences in real-time as users type or paste text.</p>
-        <div class="tags">
-          <span class="tag">JavaScript</span>
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
+      <a href="https://vouge-s-wear.onrender.com" target="_blank" class="project-card reveal delay-2">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>Vogue Wear Logic 👗</h3>
+          <p>A responsive web-based inventory management system tailored for the high-fashion industry. Implements a Python-powered backend to handle dynamic content delivery and real-time stock tracking.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">Logic Design</span>
+          </div>
         </div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-      </div>
-    </a>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+            <line x1="12" y1="22.08" x2="12" y2="12"/>
+          </svg>
+        </div>
+      </a>
 
+      <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-3">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>Banking Management System</h3>
+          <p>A Python-based banking system that simulates real-world banking operations including deposits, withdrawals, and balance checking with proper input validation and error handling.</p>
+          <div class="tags"><span class="tag">Python</span></div>
+        </div>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </div>
+      </a>
+
+      <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-4">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>Shopping Cart System</h3>
+          <p>A command-line shopping cart application that allows users to add items, calculate totals, and manage cart operations efficiently.</p>
+          <div class="tags"><span class="tag">Python</span></div>
+        </div>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </div>
+      </a>
+
+      <a href="https://alexkarita.github.io/word-guessing-game/" target="_blank" class="project-card reveal delay-5">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>Word Guessing Game 🎮</h3>
+          <p>A lightweight browser-based word guessing game with real-time feedback. Counts words, characters, and sentences as users play.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </div>
+      </a>
+
+      <a href="https://github.com/alexkarita" target="_blank" class="project-card reveal delay-6">
+        <div class="project-info">
+          <span class="badge badge-project">Project</span>
+          <h3>Weight Converter</h3>
+          <p>A responsive weight conversion application that converts between multiple units (kg, lb, oz) with instant results and a clean user interface.</p>
+          <div class="tags"><span class="tag">Python</span></div>
+        </div>
+        <div class="card-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </div>
+      </a>
+
+    </div>
   </div>
 </section>
 
+<!-- ══ ARTICLES ══ -->
 <section id="articles">
-  <h2 class="section-title reveal-left">Articles</h2>
+  <div class="section-header">
+    <h2 class="section-title reveal-left">Learning <em>Journey</em></h2>
+    <p class="section-desc reveal delay-1">Documenting my experiences, challenges, and insights as I grow as a developer.</p>
+  </div>
   <div class="projects-list">
+
     <a href="https://medium.com/@alexkarita72/c44969873030" target="_blank" class="project-card reveal-right delay-1">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>Counting Students with Python Classes</h3>
         <p>A practical introduction to object-oriented programming — using Python classes to count and manage student data efficiently.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">OOP</span>
-          <span class="tag">Medium</span>
-        </div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">OOP</span><span class="tag">Medium</span></div>
       </div>
       <div class="card-icon">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/>
-          <line x1="10" y1="14" x2="21" y2="3"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
         </svg>
       </div>
     </a>
+
     <a href="https://medium.com/@alexkarita72/aggregation-in-python-library-example-36c900dd0842" target="_blank" class="project-card reveal-right delay-2">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>Aggregation in Python — Library Example</h3>
         <p>An in-depth look at aggregation in Python using a real-world library example — exploring how objects can contain other objects to model complex relationships.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">OOP</span>
-          <span class="tag">Medium</span>
-        </div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">OOP</span><span class="tag">Medium</span></div>
       </div>
       <div class="card-icon">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/>
-          <line x1="10" y1="14" x2="21" y2="3"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
         </svg>
       </div>
     </a>
+
     <a href="https://medium.com/@alexkarita72/building-vogues-wear-ai-powered-fashion-store-for-kenya-0bb06aa3d49f" target="_blank" class="project-card reveal-right delay-3">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
-        <h3>Building Vogue’s Wear: AI-Powered Fashion for Kenya 🇰🇪</h3>
-        <p>A technical breakdown of developing an AI-driven e-commerce solution tailored for the Kenyan fashion market. Exploring the intersection of localized retail needs and intelligent backend automation.</p>
-        <div class="tags">
-          <span class="tag">AI</span>
-          <span class="tag">Python</span>
-          <span class="tag">Medium</span>
-        </div>
+        <span class="badge badge-article">Article</span>
+        <h3>Building Vogue's Wear: AI-Powered Fashion for Kenya 🇰🇪</h3>
+        <p>A technical breakdown of developing an AI-driven e-commerce solution tailored for the Kenyan fashion market.</p>
+        <div class="tags"><span class="tag">AI</span><span class="tag">Python</span><span class="tag">Medium</span></div>
       </div>
       <div class="card-icon">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/>
-          <line x1="10" y1="14" x2="21" y2="3"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
         </svg>
       </div>
     </a>
+
     <a href="https://medium.com/@alexkarita72/two-days-building-nyumbahunter-what-i-learned-a4a221951abf" target="_blank" class="project-card reveal-right delay-4">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>Two Days Building NyumbaHunter: What I Learned 🏠</h3>
-        <p>A retrospective on rapid prototyping and problem-solving. This post details the challenges and technical insights gained while building an AI-powered real estate solution in just 48 hours.</p>
-        <div class="tags">
-          <span class="tag">Next.js</span>
-          <span class="tag">Medium</span>
-        </div>
+        <p>A retrospective on rapid prototyping and problem-solving — challenges and insights gained while building an AI-powered real estate solution in just 48 hours.</p>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">Medium</span></div>
       </div>
       <div class="card-icon">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
           <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-          <polyline points="15 3 21 3 21 9"/>
-          <line x1="10" y1="14" x2="21" y2="3"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
         </svg>
       </div>
     </a>
+
     <a href="https://medium.com/@alexkarita72/i-built-an-ai-house-hunting-app-from-scratch-heres-everything-i-learned-4258283a8f81" target="_blank" class="project-card reveal-right delay-5">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>Building an AI House-Hunting App from Scratch 🏗️</h3>
-        <p>An end-to-end breakdown of developing NyumbaHunter. This article covers the full development lifecycle, from initial concept to deploying a functional AI-driven real estate solution.</p>
-        <div class="tags">
-          <span class="tag">AI</span>
-          <span class="tag">Next.js</span>
-        </div>
+        <p>An end-to-end breakdown of developing NyumbaHunter — from initial concept to deploying a functional AI-driven real estate solution.</p>
+        <div class="tags"><span class="tag">AI</span><span class="tag">Next.js</span></div>
       </div>
       <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
       </div>
     </a>
 
     <a href="https://medium.com/@alexkarita72/whatsapp-notifications-how-nyumbahunter-comes-to-you-c43e500cb854" target="_blank" class="project-card reveal-right delay-6">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>WhatsApp Notifications: How NyumbaHunter Comes to You 📲</h3>
-        <p>Exploring the integration of the WhatsApp API to provide real-time user alerts. A guide on enhancing user engagement through automated, instant messaging notifications.</p>
-        <div class="tags">
-          <span class="tag">WhatsApp API</span>
-          <span class="tag">Notifications</span>
-        </div>
+        <p>Exploring the integration of the WhatsApp API to provide real-time user alerts — enhancing engagement through automated messaging.</p>
+        <div class="tags"><span class="tag">WhatsApp API</span><span class="tag">Notifications</span></div>
       </div>
       <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </div>
-    </a>
-    <a href="https://medium.com/@alexkarita72/aggregation-in-python-library-example-36c900dd0842" target="_blank" class="project-card reveal-right delay-7">
-      <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
-        <h3>Aggregation in Python: Library Example 📚</h3>
-        <p>An in-depth look at relationship modeling in OOP. This article uses a library system to demonstrate how objects can contain other independent objects to build complex, modular systems.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">OOP</span>
-          <span class="tag">Design Patterns</span>
-        </div>
-      </div>
-      <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
       </div>
     </a>
 
-    <a href="https://medium.com/@alexkarita72/understanding-polymorphism-in-python-768eeb18d2e7" target="_blank" class="project-card reveal-right delay-8">
+    <a href="https://medium.com/@alexkarita72/understanding-polymorphism-in-python-768eeb18d2e7" target="_blank" class="project-card reveal-right delay-7">
       <div class="project-info">
-        <span class="badge badge-article">ARTICLE</span>
+        <span class="badge badge-article">Article</span>
         <h3>Understanding Polymorphism in Python 🔄</h3>
-        <p>Exploring the power of the 'many forms' principle. This guide explains how to use a single interface for different data types, making your Python code more flexible and scalable.</p>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Polymorphism</span>
-          <span class="tag">Clean Code</span>
-        </div>
+        <p>Exploring the power of the 'many forms' principle — how to use a single interface for different data types, making Python code more flexible and scalable.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Polymorphism</span><span class="tag">Clean Code</span></div>
       </div>
       <div class="card-icon">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
       </div>
     </a>
+
   </div>
 </section>
 
+<!-- ══ STATS BAR ══ -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="reveal-zoom delay-1">
+      <div class="stat-icon">&#60;/&#62;</div>
+      <div class="stat-num">6+</div>
+      <div class="stat-label">Projects Completed</div>
+    </div>
+    <div class="reveal-zoom delay-2">
+      <div class="stat-icon">🚀</div>
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Technologies</div>
+    </div>
+    <div class="reveal-zoom delay-3">
+      <div class="stat-icon">✍</div>
+      <div class="stat-num">7+</div>
+      <div class="stat-label">Articles Written</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ CONTACT ══ -->
 <section id="contact">
-  <h2 class="section-title reveal-zoom">Get in Touch</h2>
+  <div class="section-header" style="text-align:center;width:100%">
+    <h2 class="section-title reveal-zoom" style="display:inline-block">Let's <em>Connect</em></h2>
+  </div>
   <p class="reveal delay-1">I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to reach out!</p>
+
   <div class="contact-form reveal delay-2">
     <input type="text" id="cf-name" placeholder="Your Name" />
     <input type="email" id="cf-email" placeholder="Your Email" />
@@ -333,19 +363,21 @@
     <button onclick="submitForm()">Send Message</button>
     <p class="form-success" id="form-success">✓ Thanks! Message received.</p>
   </div>
+
   <a href="mailto:alexkarita72@gmail.com" class="say-hello-btn reveal delay-3">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
     Say Hello
   </a>
+
   <div class="social-icons reveal delay-4">
     <a href="https://github.com/alexkarita" target="_blank" aria-label="GitHub">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
     </a>
     <a href="https://www.linkedin.com/in/alex-karita-b24ba12b7/" target="_blank" aria-label="LinkedIn">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
     </a>
     <a href="mailto:alexkarita72@gmail.com" aria-label="Email">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
     </a>
   </div>
 </section>
@@ -377,23 +409,25 @@
     }
   }
 
+  /* Scroll reveal */
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
+    entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0.1 });
 
   document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-zoom')
     .forEach(el => observer.observe(el));
 
+  /* Active nav highlight */
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
   window.addEventListener('scroll', () => {
     let current = '';
-    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 200) current = s.id; });
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 220) current = s.id; });
     navLinks.forEach(a => { a.classList.toggle('active', a.getAttribute('href') === '#' + current); });
   });
 </script>
